@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit";
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  place-content: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+p{
+  color: hsl(220, 15%, 55%);
+  padding: 5px 10px;
+}
